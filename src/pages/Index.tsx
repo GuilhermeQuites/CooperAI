@@ -122,7 +122,7 @@ const Index = () => {
               💡 Para usar em produção: passe os produtos via parâmetros de URL no formato JSON
             </p>
             <code className="bg-gray-100 px-2 py-1 rounded mt-2 inline-block">
-              /checkout?products=[{'{'}{"id":"1","name":"Produto","price":10.50,"quantity":1,"unit":"kg"}{'}'}]
+              /checkout?products=[&#123;"id":"1","name":"Produto","price":10.50,"quantity":1,"unit":"kg"&#125;]
             </code>
           </div>
         </div>
