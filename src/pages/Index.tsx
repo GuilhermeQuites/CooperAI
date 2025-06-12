@@ -16,7 +16,7 @@ const Index = () => {
     ];
     
     const productsParam = encodeURIComponent(JSON.stringify(exampleProducts));
-    navigate(`/checkout?products=${productsParam}`);
+    navigate('/checkout?products=' + productsParam);
   };
 
   return (
