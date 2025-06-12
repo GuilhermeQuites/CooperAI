@@ -5,6 +5,9 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // Adicione esta linha para o caminho base do GitHub Pages
+  base: "/CooperAI", // <-- Mude "CooperAI" para o nome do seu repositório se for diferente
+
   server: {
     host: "::",
     port: 8080,
